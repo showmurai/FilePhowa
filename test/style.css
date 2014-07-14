@@ -2,12 +2,16 @@
 #drop_zone {
     border:2px dashed #bbb;
     border-radius: 5px;
-    padding: 25px;
+    padding: 40px;
     text-align: center;
     font: 20pt bold 'Vollkorn';
     color: #bbb
 }
 
+.default {
+    color: #ff0000;
+    font: bold 'Vollkorn';
+}
 .sample {
     padding: 10px;
     border: 1px solid #ccc;
