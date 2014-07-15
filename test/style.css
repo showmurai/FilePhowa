@@ -16,3 +16,20 @@
     padding: 10px;
     border: 1px solid #ccc;
 }
+
+.page-wrap {
+    width: 90%;
+    max-width: 1350px;
+    overflow-x: hidden;
+    margin: 0 auto 40px;
+    position: relative;
+    background: linear-gradient(#8f5314, #000 1000px);
+}
+
+.module {
+    background: white;
+    padding: 45px 40px 30px;
+    clear: both;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+}
