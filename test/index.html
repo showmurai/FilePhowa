@@ -10,28 +10,26 @@
     href="../bower_components/normalize-css/normalize.css"
     type="text/css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="style.css">
-</head>
-
-<div class="page-wrap">
-    <div class="module">
-        <body>
+  </head>
+  <body>
+    <div class="content">
+      <div class="main">
         <h1>File Phowa</h1>
-        <br>
-        <div class="sample">
-            <div id="drop_zone">Drop files here</div>
-            <output id="list"></output>
+        <div id="drop_zone">
+          Drop files here
         </div>
-    </div>
-</div>
+        <output id="list"></output>
+      </div> <!-- main -->
+    </div> <!-- content -->
 
-<script type="text/javascript" src="file_drop.js" async></script>
-<script>
-  window.addEventListener('load', function() {
-    var dropZone = document.getElementById('drop_zone');
-    dropZone.addEventListener('dragover', file_drop.fileSelectHandler, false);
-    dropZone.addEventListener('drop', file_drop.dragOverHandler, false);
-  }, false);
-</script>
+    <script type="text/javascript" src="file_drop.js" async></script>
+    <script>
+      window.addEventListener('load', function() {
+        var dropZone = document.getElementById('drop_zone');
+        dropZone.addEventListener('dragover', file_drop.fileSelectHandler, false);
+        dropZone.addEventListener('drop', file_drop.dragOverHandler, false);
+      }, false);
+    </script>
 
-</body>
+  </body>
 </html>
