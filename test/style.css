@@ -1,23 +1,12 @@
 @charset "utf-8";
-#drop_zone {
-    border:2px dashed #bbb;
-    border-radius: 5px;
-    padding: 40px;
-    text-align: center;
-    font: 20pt bold 'Vollkorn';
-    color: #bbb
+
+html {
+    font-family: "Avenir Next", "游ゴシック体", "Yu Gothic", YuGothic, "Meiryo","メイリオ", sans-serif;;
+    color: #424647;
+    background-color: #fefefe;
 }
 
-.default {
-    color: #ff0000;
-    font: bold 'Vollkorn';
-}
-.sample {
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-.page-wrap {
+.content {
     width: 90%;
     max-width: 1350px;
     overflow-x: hidden;
@@ -26,10 +15,18 @@
     background: linear-gradient(#8f5314, #000 1000px);
 }
 
-.module {
-    background: white;
+.main {
+    background-color: #fefefe;
     padding: 45px 40px 30px;
     clear: both;
     margin: 20px 20px 20px 20px;
     position: relative;
+}
+
+#drop_zone {
+    border:2px dashed #bbb;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    color: #bbb
 }
