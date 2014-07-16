@@ -23,6 +23,9 @@ https://github.com/go-martini/martini
 gin(候補その2)
 https://github.com/gin-gonic/gin
 
+Go support for jQuery File Upload plugin(たぶん使わないけどこんなんある)
+https://github.com/jmcvetta/jfu
+
 ストレージ
 AWS S3にしようか、自宅にサーバー立てるか
 
