@@ -1,2 +1,1 @@
-https://github.com/go-martini/martini.git
-https://github.com/gin-gonic/gin.git
+github.com/go-martini/martini.gigithub.com/gin-gonic/gin.git
