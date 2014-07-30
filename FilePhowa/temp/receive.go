@@ -16,7 +16,7 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	out, err := os.Create("./uploadfile")
+	out, err := os.Create("./")
 	if err != nil {
 		fmt.Fprintf(w, "Unable to create the file for writing. Check your write access privilege")
 		return
@@ -36,5 +36,5 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", uploadHandler)
-	http.ListenAndServe(":9999", nil)
+	http.ListenAndServe("localhost:9999", nil)
 }
